@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Codeacademy Design</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="logo">
+                        <h3>
+                            <span class="primary-text">Code</span> cademy</h3>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 end-sm end-md end-lg">
+                    <ul class="topLinks">
+                        <li>Community</li>
+                        <li>Catalog</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Showcase-->
+    <section id="showcase">
+        <div class="container">
+            <h1>Learn to code interactivelyl, for free.</h1>
+            <div class="row middle-xs middle-sm middle-md middle-lg top-xs top-sm top-md">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
+                    <div class="bg-img">
+                        <img src="images/background.png" alt="background image">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 signup-wrap">
+                    <form id="signup" method="post" action="">
+                        <h3>Sign Up!</h3>
+                        <p class="error" style="color: red"></p>
+                        <input type="text" id="username" name="username" placeholder="Enter Username">
+                        <p id="errorUser" style="color: red"></p>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Enter Email">
+                        <p id="errorEmail" style="color: red"></p>
+                        <br>
+                        <input type="password" id="password" name="password" placeholder="Enter Password">
+                        <p id="errorPass" style="color: red"></p>
+                        <br>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <p id="errorCheck" style="color: red"></p>
+                        <label for="opt-in">I'm not a robot</label>
+                        <br>
+                        <button type="submit" id="signup-button">Sign Up</button>
+                        <br>
+                        <button class="google-button" type="submit">Sign Up with google</button>
+                        <br>
+                        <button type="submit" class="fb-button">Sign Up with facebook</button>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 login-wrap">
+                    <form id="login">
+                        <h3>Login!</h3>
+                        <p class="error2" style="color: red"></p>
+                        <input type="email" id="email2" name="email" placeholder="Enter Email">
+                        <p id="errorEmail2" style="color: red"></p>
+                        <br>
+                        <input type="password" id="password2" name="password" placeholder="Enter Password">
+                        <p id="errorPass2" style="color: red"></p>
+                        <br>
+                        <button type="submit" id="login-button">Log In</button>
+                        <br>
+                        <a href="#">I forgot my username or password</a>
+                        <br>
+                        <button class="google-button" type="submit">Sign Up with google</button>
+                        <br>
+                        <button type="submit" class="fb-button">Sign Up with facebook</button>
+                    </form>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!--advertise-->
+    <section id="advertise">
+        <div class="container">
+            <div class="row middle-xs middle-sm middle-md middle-lg">
+                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 ad-content">
+                    <h3>
+                        <span class="primary-text">Code</span> cademy
+                        <span class="secondary-text">/ PRO</span>
+                    </h3>
+                    <h1>The Next Step For Your Career</h1>
+                    <p>The demand for coding skills is skyrocketing, and not just for developers — programming is playing a
+                        bigger role in every career path. Add the right technical skills to your résumé so you can pursue
+                        a more fulfilling career.</p>
+                    <button>Go Pro</button>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 ad-content">
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UlytxVZh7Js" frameborder="0" gesture="media" allow="encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--testimonials-->
+    <section id="testimonials">
+        <div class="container">
+            <h1>Codecademy Stories</h1>
+            <div class="row middle-xs middle-sm middle-md middle-lg">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="card">
+                        <img src="https://s3.amazonaws.com/codecademy-production/stories/loren_robinson.jpg" alt="robin">
+                        <p>Loren Robinson</p>
+                        <p class="title">Lehigh Valley, Pa</p>
+                        <p>Upgrade small business management with code</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="card">
+                        <img src="https://production.cdmycdn.com/assets/stories/portraits/sam-fellig-6cd99e5367910db2d39864bc0328e21f.jpg" alt="sam">
+                        <p>Sam Fellig</p>
+                        <p class="title">New York, US</p>
+                        <p>How to outgrow the fear of starting</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="card">
+                        <img src="https://s3.amazonaws.com/codecademy-production/stories/kelly-focus.png" alt="kelly">
+                        <p>Kelly Mulvihill</p>
+                        <p class="title">New York, NY</p>
+                        <p>Design plus coding equals web</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="continue">
+                <p id="read-more">
+                    <a href="#">Read More Stories</a>
+                </p>
+                <br>
+                <hr>
+                <br>
+                <p>Join over
+                    <br>
+                    <span>45 million</span>
+                    <br>learners from the globe</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--footer-nav-->
+    <footer id="footer-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="footer-content">
+                        <h4>Codecademy</h4>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Stories</a>
+                                </li>
+                                <li>
+                                    <a href="#">We're Hiring</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="footer-category">
+                        <h4>Catalog</h4>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a class="uppercase" href="#">by subject</a>
+                                </li>
+                                <li>
+                                    <a href="#">web development</a>
+                                </li>
+                                <li>
+                                    <a href="#">Programming</a>
+                                </li>
+                                <li>
+                                    <a href="#">Data Science</a>
+                                </li>
+                                <li>
+                                    <a href="#">Partnership</a>
+                                </li>
+                                <li>
+                                    <a href="#">Design</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a class="uppercase" href="#">by Language</a>
+                            </li>
+                            <li>
+                                <a href="#">HTML & CSS</a>
+                            </li>
+                            <li>
+                                <a href="#">Python</a>
+                            </li>
+                            <li>
+                                <a href="#">Javascript</a>
+                            </li>
+                            <li>
+                                <a href="#">Java</a>
+                            </li>
+                            <li>
+                                <a href="#">Sql</a>
+                            </li>
+                            <li>
+                                <a href="#">Bash/Shell</a>
+                            </li>
+                            <li>
+                                <a href="#">Ruby</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <h4>Resources</h4>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">Beta Courses</a>
+                            </li>
+                            <li>
+                                <a href="#">Articles</a>
+                            </li>
+                            <li>
+                                <a href="#">Forums</a>
+                            </li>
+                            <li>
+                                <a href="#">Help</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="social-links">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="copyrights">
+                <p>
+                    <a href="#">Privacy Policy | Terms</a>
+                    <span>Made in NYC &copy; 2017</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
